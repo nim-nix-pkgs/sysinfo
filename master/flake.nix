@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-sysinfo-master.flake = false;
+  inputs.src-sysinfo-master.ref   = "refs/heads/master";
   inputs.src-sysinfo-master.owner = "treeform";
-  inputs.src-sysinfo-master.ref   = "master";
   inputs.src-sysinfo-master.repo  = "sysinfo";
   inputs.src-sysinfo-master.type  = "github";
   

@@ -1,0 +1,9 @@
+when defined(windows):
+  import sysinfo/windows
+  export windows
+when defined(osx):
+  import sysinfo/macos
+  export macos
+when defined(linux):
+  import sysinfo/linux
+  export linux
